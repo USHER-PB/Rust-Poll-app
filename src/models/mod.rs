@@ -1,1 +1,3 @@
-mod register;
+pub mod register;
+pub mod login;
+pub mod poll;

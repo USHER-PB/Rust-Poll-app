@@ -1,0 +1,73 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* App container */
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Poll list styles */
+.PollList {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.PollList h2 {
+  text-align: center;
+}
+
+/* Poll item styles */
+.PollItem {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.PollItem h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.PollItem ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.PollItem li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.PollItem button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.PollItem button:hover {
+  background: #0056b3;
+}
+
+/* Poll form styles */
+.PollForm {
+  background: #fff;
+}
